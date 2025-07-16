@@ -4,7 +4,7 @@ import argparse
 import time
 
 # API configuration variables
-API_URL = "http://10.255.100.20:11434"
+API_URL = "http://ollama:11434"
 API_KEY = os.getenv('OLLAMA_API_KEY', 'ollama')
 API_MODEL = "qwen3:32b"
 API_TEMPERATURE = 0.2
